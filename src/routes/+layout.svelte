@@ -1,15 +1,16 @@
 <script>
-    export const prerender = true;
+    export const prerender = true; // for static generation
+    import { base } from "$app/paths"; // to account for GH base path differenc
 </script>
 
 <main>
   <section>This project is in alpha! Everything may change rapidly and without warning. Feedback very welcome.</section>
 
-  <a href="/">
+  <a href="{base}">
     <h1>Collective Governance Archive</h1>
   </a>
 
-  <a href="/about">
+  <a href="{base}/about">
     <h2>About</h2>
   </a>
 
