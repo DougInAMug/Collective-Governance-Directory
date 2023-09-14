@@ -15,3 +15,4 @@ npm run build
 ```
 
 To get a prototype running, I'm going to just use GitHub pages. This requires a static scite. Relevant Svelte adapter: https://kit.svelte.dev/docs/adapter-static
+ 
