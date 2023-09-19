@@ -48,8 +48,21 @@
 </footer>
 
 <style>
+  table {
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  thead {
+    background: #fff;
+  }
   tbody td {
     border: 1px solid #f5f5f5;
     padding: 4px 20px;
+  }
+  tbody tr {
+    transition: all, 0.2s;
+  }
+  tbody tr:hover {
+    background: #f5f5f5;
   }
 </style>
