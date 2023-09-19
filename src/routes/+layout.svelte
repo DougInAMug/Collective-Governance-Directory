@@ -6,7 +6,7 @@
 <main>
   <section>This project is in alpha! Everything may change rapidly and without warning. Feedback very welcome!</section>
 
-  <a href="{base}">
+  <a href="{base}/">
     <h1>Collective Governance Archive</h1>
   </a>
 
