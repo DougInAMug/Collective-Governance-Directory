@@ -1,10 +1,12 @@
 <script>
-    export const prerender = true; // for static generation
-    import { base } from "$app/paths"; // to account for GH base path differenc
+  export const prerender = true; // for static generation
+  import { base } from "$app/paths"; // to account for GH base path differenc
 </script>
 
 <main>
-  <section>This project is in alpha! Everything may change rapidly and without warning. Feedback very welcome!</section>
+  <section>
+    This project is in alpha! Everything may change rapidly and without warning. Feedback very welcome!
+  </section>
 
   <a href="{base}/">
     <h1>Collective Governance Archive</h1>
@@ -32,6 +34,7 @@
 
   :global(h1, h2, h3) {
     margin-top: 0;
+    text-align: center;
   }
 
   :global(main) {
@@ -48,4 +51,3 @@
     margin-left: calc(100vw - 100%);
   }
 </style>
-

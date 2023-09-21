@@ -1,10 +1,10 @@
 <script lang="ts">
   import {
     DataHandler,
-    Th,
     ThFilter,
     Search,
     RowCount,
+    Th,
   } from "@vincjo/datatables";
   import data from "../data";
 
@@ -12,32 +12,41 @@
   const rows = handler.getRows();
 </script>
 
-<header>
-  <Search {handler} />
+<header class="mb1">
+  <Search {handler} class="searchBar" />
 </header>
 
-<table>
+<table class="mb1">
   <thead>
     <tr>
-      <Th {handler} orderBy="OrgName">Organization name</Th>
-      <Th {handler} orderBy="ArtTitle">Artefact title</Th>
-      <Th {handler} orderBy="Lang">Language</Th>
-      <Th {handler} orderBy="NumChars">Number of characters</Th>
+      <Th {handler} orderBy="organizationName">Organization name</Th>
+      <Th {handler} orderBy="artefactTitle">Artefact title</Th>
+      <Th {handler} orderBy="translationOf">Translated from</Th>
+      <Th {handler} orderBy="language">Language</Th>
+      <Th {handler} orderBy="numberOfCharacters">Number of characters</Th>
     </tr>
     <tr>
-      <ThFilter {handler} filterBy="OrgName" />
-      <ThFilter {handler} filterBy="ArtTitle" />
-      <ThFilter {handler} filterBy="Lang" />
-      <ThFilter {handler} filterBy="NumChars" />
+      <ThFilter {handler} filterBy="organizationName" />
+      <ThFilter {handler} filterBy="artefactTitle" />
+      <ThFilter {handler} filterBy="translationOf" />
+      <ThFilter {handler} filterBy="language" />
+      <ThFilter {handler} filterBy="numberOfCharacters" />
     </tr>
   </thead>
   <tbody>
     {#each $rows as row}
       <tr>
-        <td>{row.OrgName}</td>
-        <td><a href={row.ArtLink}>{row.ArtTitle}</a></td>
-        <td>{row.Lang}</td>
-        <td>{row.NumChars}</td>
+        <td>{row.organizationName}</td>
+        <td><a href={row.artefactLink}>{row.artefactTitle}</a></td>
+        <td>
+          {#if row.translationOf}
+            {row.translationOf}
+          {:else}
+            —
+          {/if}
+        </td>
+        <td>{row.language}</td>
+        <td>{row.numberOfCharacters}</td>
       </tr>
     {/each}
   </tbody>
@@ -49,11 +58,7 @@
 
 <style>
   table {
-    border-collapse: separate;
     border-spacing: 0;
-  }
-  thead {
-    background: #fff;
   }
   tbody td {
     border: 1px solid #f5f5f5;
@@ -64,5 +69,11 @@
   }
   tbody tr:hover {
     background: #f5f5f5;
+  }
+  .mb1 {
+    margin-bottom: 1rem;
+  }
+  :global(input.searchBar) {
+    width: 300px;
   }
 </style>
