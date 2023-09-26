@@ -16,47 +16,58 @@
   <Search {handler} class="searchBar" />
 </header>
 
-<table class="mb1">
-  <thead>
-    <tr>
-      <Th {handler} orderBy="organizationName">Organization name</Th>
-      <Th {handler} orderBy="artefactTitle">Artefact title</Th>
-      <Th {handler} orderBy="translationOf">Translated from</Th>
-      <Th {handler} orderBy="language">Language</Th>
-      <Th {handler} orderBy="numberOfCharacters">Number of characters</Th>
-    </tr>
-    <tr>
-      <ThFilter {handler} filterBy="organizationName" />
-      <ThFilter {handler} filterBy="artefactTitle" />
-      <ThFilter {handler} filterBy="translationOf" />
-      <ThFilter {handler} filterBy="language" />
-      <ThFilter {handler} filterBy="numberOfCharacters" />
-    </tr>
-  </thead>
-  <tbody>
-    {#each $rows as row}
+<div class="tableContainer">
+  <table class="mb1">
+    <thead>
       <tr>
-        <td>{row.organizationName}</td>
-        <td><a href={row.artefactLink}>{row.artefactTitle}</a></td>
-        <td>
-          {#if row.translationOf}
-            {row.translationOf}
-          {:else}
-            —
-          {/if}
-        </td>
-        <td>{row.language}</td>
-        <td>{row.numberOfCharacters}</td>
+        <Th {handler} orderBy="organizationName">Organization name</Th>
+        <Th {handler} orderBy="artefactTitle">Artefact title</Th>
+        <Th {handler} orderBy="translationOf">Translated from</Th>
+        <Th {handler} orderBy="language">Language</Th>
+        <Th {handler} orderBy="numberOfCharacters">Number of characters</Th>
+        <Th {handler} orderBy="lastChecked">Last checked on</Th>
       </tr>
-    {/each}
-  </tbody>
-</table>
+      <tr>
+        <ThFilter {handler} filterBy="organizationName" />
+        <ThFilter {handler} filterBy="artefactTitle" />
+        <ThFilter {handler} filterBy="translationOf" />
+        <ThFilter {handler} filterBy="language" />
+        <ThFilter {handler} filterBy="numberOfCharacters" />
+        <ThFilter {handler} filterBy="lastChecked" />
+      </tr>
+    </thead>
+    <tbody>
+      {#each $rows as row}
+        <tr>
+          <td>{row.organizationName}</td>
+          <td><a href={row.artefactLink}>{row.artefactTitle}</a></td>
+          <td>
+            {#if row.translationOf}
+              {row.translationOf}
+            {:else}
+              —
+            {/if}
+          </td>
+          <td>{row.language}</td>
+          <td>{row.numberOfCharacters}</td>
+          <td>{row.lastChecked}</td>
+        </tr>
+      {/each}
+    </tbody>
+  </table>
+</div>
 
 <footer>
   <RowCount {handler} />
 </footer>
 
 <style>
+  div.tableContainer {
+    width: 100vw;
+    overflow-x: scroll;
+    display: flex;
+    justify-content: center;
+  }
   table {
     border-spacing: 0;
   }

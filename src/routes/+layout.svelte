@@ -4,28 +4,71 @@
 </script>
 
 <main>
-  <section>
-    This project is in alpha! Everything may change rapidly and without warning. Feedback very welcome!
-  </section>
-
   <a href="{base}/">
     <h1>Collective Governance Archive</h1>
   </a>
 
-  <a href="{base}/about">
-    <h2>About</h2>
-  </a>
+  <nav>
+    <ul>
+      <li>
+        <a href="{base}/about">
+          <img
+            src="src/icons/info-hexagon.svg"
+            alt="Information icon: a hexagon with an 'i' in it"
+            class="navIcon"
+          />
+          About
+        </a>
+      </li>
+      <li>
+        <a href="https://creativecommons.org/publicdomain/zero/1.0/">
+          <img
+            src="src/icons/creative-commons-zero.svg"
+            alt="The Creative Commons Zero license: a circle with a '0' inside"
+            class="navIcon"
+          />
+          License<img
+            src="src/icons/external-link.svg"
+            alt="External link icon: a square with an arrow pointing out through the top-right corner"
+          />
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/DougInAMug/ALPHA-CGA">
+          <img
+            src="src/icons/file-code.svg"
+            alt="Source code icon: a circle with '<>' in it"
+            class="navIcon"
+          />
+          Source<img
+            src="src/icons/external-link.svg"
+            alt="External link icon: a square with an arrow pointing out through the top-right corner"
+          />
+        </a>
+      </li>
+    </ul>
+  </nav>
 
   <slot />
 </main>
 
 <style>
-  section {
-    max-width: 60ch;
-    border: 5px solid red;
-    font-weight: bold;
-    padding: 1rem;
-    margin-bottom: 2rem;
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    font-size: 2rem;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  nav ul li a {
+    display: flex;
+    align-items: center;
+  }
+
+  .navIcon {
+    height: 2rem;
   }
 
   :global(body) {
