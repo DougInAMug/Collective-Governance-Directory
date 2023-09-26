@@ -1,6 +1,11 @@
 <script>
   export const prerender = true; // for static generation
-  import { base } from "$app/paths"; // to account for GH base path differenc
+  import { base } from "$app/paths"; // to account for GH base path difference
+  // Workaround because of vite issue https://github.com/tabler/tabler-icons/issues/518
+  import IconInfoHexagon from "@tabler/icons-svelte/dist/svelte/icons/IconInfoHexagon.svelte";
+  import IconCreativeCommonsZero from "@tabler/icons-svelte/dist/svelte/icons/IconCreativeCommonsZero.svelte";
+  import IconFileCode from "@tabler/icons-svelte/dist/svelte/icons/IconFileCode.svelte";
+  import IconExternalLink from "@tabler/icons-svelte/dist/svelte/icons/IconExternalLink.svelte";
 </script>
 
 <main>
@@ -12,38 +17,20 @@
     <ul>
       <li>
         <a href="{base}/about">
-          <img
-            src="src/icons/info-hexagon.svg"
-            alt="Information icon: a hexagon with an 'i' in it"
-            class="navIcon"
-          />
+          <IconInfoHexagon size={30}/>
           About
         </a>
       </li>
       <li>
         <a href="https://creativecommons.org/publicdomain/zero/1.0/">
-          <img
-            src="src/icons/creative-commons-zero.svg"
-            alt="The Creative Commons Zero license: a circle with a '0' inside"
-            class="navIcon"
-          />
-          License<img
-            src="src/icons/external-link.svg"
-            alt="External link icon: a square with an arrow pointing out through the top-right corner"
-          />
+          <IconCreativeCommonsZero size={30} />
+          License<IconExternalLink size={18} />
         </a>
       </li>
       <li>
         <a href="https://github.com/DougInAMug/ALPHA-CGA">
-          <img
-            src="src/icons/file-code.svg"
-            alt="Source code icon: a circle with '<>' in it"
-            class="navIcon"
-          />
-          Source<img
-            src="src/icons/external-link.svg"
-            alt="External link icon: a square with an arrow pointing out through the top-right corner"
-          />
+          <IconFileCode size={30} />
+          Source<IconExternalLink size={18} />
         </a>
       </li>
     </ul>
@@ -56,7 +43,9 @@
   nav ul {
     list-style: none;
     display: flex;
-    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem 1.5rem;
     font-size: 2rem;
     margin-top: 0;
     padding: 0;
@@ -65,10 +54,6 @@
   nav ul li a {
     display: flex;
     align-items: center;
-  }
-
-  .navIcon {
-    height: 2rem;
   }
 
   :global(body) {
@@ -84,7 +69,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    line-height: 1.5;
+    line-height: 1.25;
     margin: 0 auto;
   }
 

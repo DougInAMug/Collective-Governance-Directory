@@ -1,11 +1,17 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  '@tabler/icons-svelte':
+    specifier: 2.30.0
+    version: 2.30.0(svelte@4.2.0)
   svelte-markdown:
     specifier: ^0.4.0
     version: 0.4.0(svelte@4.2.0)
 
 devDependencies:
+  '@iconify-json/tabler':
+    specifier: ^1.1.92
+    version: 1.1.92
   '@sveltejs/adapter-auto':
     specifier: ^2.0.0
     version: 2.1.0(@sveltejs/kit@1.24.1)
@@ -31,7 +37,7 @@ devDependencies:
     specifier: ^5.0.0
     version: 5.2.2
   vite:
-    specifier: ^4.4.2
+    specifier: ^4.4.9
     version: 4.4.9
 
 packages:
@@ -241,6 +247,16 @@ packages:
     dev: true
     optional: true
 
+  /@iconify-json/tabler@1.1.92:
+    resolution: {integrity: sha512-zZD5uSYz6uNZ/qh9T4l3BObTq03A7NcY+9dV4jVgYhdw9fc7JZmFFA7rJkybfHHrlDRq548hmDCmEJuR9blLdg==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify/types@2.0.0:
+    resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
+    dev: true
+
   /@jridgewell/gen-mapping@0.3.3:
     resolution: {integrity: sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==}
     engines: {node: '>=6.0.0'}
@@ -371,6 +387,19 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@tabler/icons-svelte@2.30.0(svelte@4.2.0):
+    resolution: {integrity: sha512-JugP1BpvVCxkSuIFQmOwB+FfVI8KLi0i6MxdclloI4xNUXU0JPlFkuNxy+j7iJUqUsUxPUspFWxzfbnAoL5JXw==}
+    peerDependencies:
+      svelte: '>=3 <5'
+    dependencies:
+      '@tabler/icons': 2.30.0
+      svelte: 4.2.0
+    dev: false
+
+  /@tabler/icons@2.30.0:
+    resolution: {integrity: sha512-tvtmkI4ALjKThVVORh++sB9JnkFY7eGInKxNy+Df7WVQiF7T85tlvGADzlgX4Ic+CK5MIUzZ0jhOlQ/RRlgXpg==}
+    dev: false
 
   /@types/cookie@0.5.2:
     resolution: {integrity: sha512-DBpRoJGKJZn7RY92dPrgoMew8xCWc2P71beqsjyhEI/Ds9mOyVmBwtekyfhpwFIVt1WrxTonFifiOZ62V8CnNA==}

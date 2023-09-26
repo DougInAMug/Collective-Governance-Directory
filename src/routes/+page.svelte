@@ -17,6 +17,7 @@
 </header>
 
 <div class="tableContainer">
+  <div class="flexGrower" />
   <table class="mb1">
     <thead>
       <tr>
@@ -55,6 +56,7 @@
       {/each}
     </tbody>
   </table>
+  <div class="flexGrower" />
 </div>
 
 <footer>
@@ -66,7 +68,10 @@
     width: 100vw;
     overflow-x: scroll;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+  }
+  div.flexGrower {
+    flex-grow: 1;
   }
   table {
     border-spacing: 0;
