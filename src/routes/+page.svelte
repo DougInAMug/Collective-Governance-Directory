@@ -50,7 +50,7 @@
             {/if}
           </td>
           <td>{row.language}</td>
-          <td>{row.numberOfCharacters}</td>
+          <td>{row.numberOfCharacters.toLocaleString()}</td>
           <td>{row.lastChecked}</td>
         </tr>
       {/each}
@@ -66,7 +66,7 @@
 <style>
   div.tableContainer {
     width: 100vw;
-    overflow-x: scroll;
+    overflow-x: auto;
     display: flex;
     justify-content: flex-start;
   }

@@ -21,8 +21,9 @@ To get a prototype running, I'm going to just use GitHub pages. This requires a 
 - [x] adding CC0 
 - [x] remove alpha warning
 
-
 ## start advertising/contacting places after
-- [ ] deciding on name
-- [ ] implementing custom domain
+- [ ] design once-over
+- [ ] content once-over
+- [ ] decide on name
+- [ ] get/implement domain
 - [ ] 

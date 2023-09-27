@@ -1,4 +1,5 @@
 import adapter from '@sveltejs/adapter-static';
+import { preview } from 'vite';
 
 const dev = process.argv.includes('dev');
 
@@ -14,7 +15,7 @@ export default {
             strict: true
         }),
         paths: {
-            base: dev ? "" : "/ALPHA-CGA",
+            base: dev | preview ? "" : "/ALPHA-CGA",
         }
     }
 };

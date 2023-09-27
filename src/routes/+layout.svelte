@@ -1,5 +1,4 @@
 <script>
-  export const prerender = true; // for static generation
   import { base } from "$app/paths"; // to account for GH base path difference
   // Workaround because of vite issue https://github.com/tabler/tabler-icons/issues/518
   import IconInfoHexagon from "@tabler/icons-svelte/dist/svelte/icons/IconInfoHexagon.svelte";
@@ -7,6 +6,11 @@
   import IconFileCode from "@tabler/icons-svelte/dist/svelte/icons/IconFileCode.svelte";
   import IconExternalLink from "@tabler/icons-svelte/dist/svelte/icons/IconExternalLink.svelte";
 </script>
+
+<svelte:head>
+  <!-- Overwrite existing viewport tag to specify scale -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+</svelte:head>
 
 <main>
   <a href="{base}/">
@@ -58,6 +62,7 @@
 
   :global(body) {
     margin: 3rem 1rem 1rem 1rem;
+
   }
 
   :global(h1, h2, h3) {
@@ -77,5 +82,6 @@
   /* https://css-tricks.com/elegant-fix-jumping-scrollbar-issue/ */
   :global(html) {
     margin-left: calc(100vw - 100%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 </style>
