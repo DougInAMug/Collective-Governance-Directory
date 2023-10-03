@@ -13,9 +13,6 @@ export default {
             fallback: undefined,
             precompress: false,
             strict: true
-        }),
-        paths: {
-            base: dev | preview ? "" : "/ALPHA-CGA",
-        }
+        })
     }
 };

@@ -1,6 +1,6 @@
 {
-	"name": "collective-governance-archive",
-	"version": "0.0.1",
+	"name": "collective-governance-directory",
+	"version": "0.1.0",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",

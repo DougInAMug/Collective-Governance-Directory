@@ -1,4 +1,4 @@
-# Collective Governance Archive
+# Collective Governance Directory
 
 Main project info in [`src/routes/about/+page.svelte`](src/routes/about/+page.svelte)
 
