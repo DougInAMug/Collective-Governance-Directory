@@ -67,6 +67,7 @@ The public body of governance used by collectives is small, and that which exist
 
 <style>
   section {
-    max-width: 60ch;
+    width: 60ch;
+    max-width: 100%;
   }
 </style>
