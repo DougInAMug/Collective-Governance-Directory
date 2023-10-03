@@ -51,7 +51,7 @@
           </td>
           <td>{row.language}</td>
           <td>{row.numberOfCharacters.toLocaleString()}</td>
-          <td>{row.lastChecked}</td>
+          <td style="white-space:nowrap">{row.lastChecked}</td>
         </tr>
       {/each}
     </tbody>
