@@ -75,4 +75,12 @@ export default [
         "numberOfCharacters": 2700,
         "lastChecked": "2023-09-14"
     },
+    {
+        "organizationName": "Moulinage de Chirols",
+        "artefactTitle": "Charte",
+        "artefactLink": "https://lemoulinagedechirols.org/wp-content/uploads/2022/03/La-Charte-du-collectif-du-Moulinage-de-Chirols-06_03_2019.pdf",
+        "language": "FR",
+        "numberOfCharacters": 8800,
+        "lastChecked": "2023-10-06"
+    },
 ]
