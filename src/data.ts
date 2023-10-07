@@ -12,7 +12,7 @@ export default [
         "artefactTitle": "Entscheidungsfindung",
         "artefactLink": "https://luftschlosserei.org/wordpress/wp-content/uploads/2015/02/2014-04-03-konsens.pdf",
         "language": "DE",
-        "numberOfCharacters": 1,
+        "numberOfCharacters": 9000,
         "lastChecked": "2023-10-05"
     },
     {
@@ -20,7 +20,7 @@ export default [
         "artefactTitle": "Soziales Miteinander",
         "artefactLink": "https://luftschlosserei.org/wordpress/wp-content/uploads/2015/03/Luftschlosserei-Soziales-Miteinander.pdf",
         "language": "DE",
-        "numberOfCharacters": 1,
+        "numberOfCharacters": 7900,
         "lastChecked": "2023-10-05"
     },
     {
@@ -28,7 +28,7 @@ export default [
         "artefactTitle": "Gemeinsame Ökonomie",
         "artefactLink": "https://luftschlosserei.org/wordpress/wp-content/uploads/2017/07/luftschlosserei-gemeinsame-%C3%B6konomie.pdf",
         "language": "DE",
-        "numberOfCharacters": 1,
+        "numberOfCharacters": 23200,
         "lastChecked": "2023-10-05"
     },
     {
@@ -98,5 +98,13 @@ export default [
         "language": "EN",
         "numberOfCharacters": 2700,
         "lastChecked": "2023-09-14"
+    },
+    {
+        "organizationName": "Moulinage de Chirols",
+        "artefactTitle": "Charte",
+        "artefactLink": "https://lemoulinagedechirols.org/wp-content/uploads/2022/03/La-Charte-du-collectif-du-Moulinage-de-Chirols-06_03_2019.pdf",
+        "language": "FR",
+        "numberOfCharacters": 8800,
+        "lastChecked": "2023-10-06"
     },
 ]
