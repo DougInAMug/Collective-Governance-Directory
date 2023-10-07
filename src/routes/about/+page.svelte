@@ -45,6 +45,11 @@ When I was drafting governance for [Kanthaus](https://kanthaus.online/) in 2017,
 
 In the last couple years I've had at least four people contact me looking for governance from other living projects ([Ecodorp Zuiderveld](https://www.ecodorpzuiderveld.nl/), [Schwarz10](http://schwarz10.de/), [Pödelwitz hat Zukunft](https://www.poedelwitz.de/de/), [Mietshäuser Projekt](https://en.wikipedia.org/wiki/Mietsh%C3%A4user_Syndikat) working group) either for inspiration for an specific area with which they were struggling, or for the drafting of whole new artefacts.
 
+### Links
+
+- https://radhr.org/ - a library of uploaded progressive policies and processes from organizations + forum
+- https://communityrule.info - a plug-it-together governance toolkit + library of user generated rule sets
+
 `;
 </script>
 
