@@ -8,6 +8,30 @@ export default [
         "lastChecked": "2023-09-19"
     },
     {
+        "organizationName": "Luftschlosserei",
+        "artefactTitle": "Entscheidungsfindung",
+        "artefactLink": "https://luftschlosserei.org/wordpress/wp-content/uploads/2015/02/2014-04-03-konsens.pdf",
+        "language": "DE",
+        "numberOfCharacters": 9000,
+        "lastChecked": "2023-10-05"
+    },
+    {
+        "organizationName": "Luftschlosserei",
+        "artefactTitle": "Soziales Miteinander",
+        "artefactLink": "https://luftschlosserei.org/wordpress/wp-content/uploads/2015/03/Luftschlosserei-Soziales-Miteinander.pdf",
+        "language": "DE",
+        "numberOfCharacters": 7900,
+        "lastChecked": "2023-10-05"
+    },
+    {
+        "organizationName": "Luftschlosserei",
+        "artefactTitle": "Gemeinsame Ökonomie",
+        "artefactLink": "https://luftschlosserei.org/wordpress/wp-content/uploads/2017/07/luftschlosserei-gemeinsame-%C3%B6konomie.pdf",
+        "language": "DE",
+        "numberOfCharacters": 23200,
+        "lastChecked": "2023-10-05"
+    },
+    {
         "organizationName": "East Lake Commons",
         "artefactTitle": "The Book of Commons",
         "artefactLink": "https://www.eastlakecommons.org/Documents/Public/BOC_Public.pdf",
