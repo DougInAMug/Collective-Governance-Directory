@@ -11,14 +11,15 @@
 <svelte:head>
   <!-- Overwrite existing viewport tag to specify scale -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Find rules, constitutions, policies and other governance artefacts of living collectives." />
+  <meta
+    name="description"
+    content="Find rules, constitutions, policies and other governance artefacts of living collectives."
+  />
   <title>Collective Governance Directory</title>
 </svelte:head>
 
 <main>
-  <a href="{base}/">
-    <h1>Collective Governance Directory</h1>
-  </a>
+  <h1><a href="{base}/">Collective Governance Directory</a></h1>
 
   <nav>
     <ul>
@@ -38,10 +39,30 @@
   </nav>
 
   <slot />
-  
-  <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://collectivegovernance.directory/">Collective Governance Directory</a> is marked with <a href="http://creativecommons.org/publicdomain/zero/1.0?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC0 1.0 Universal <IconCreativeCommons size={22} style="vertical-align:text-bottom" /><IconCreativeCommonsZero size={22} style="vertical-align:bottom" /></a></p> 
-</main>
 
+  <p
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:dct="http://purl.org/dc/terms/"
+  >
+    <a
+      property="dct:title"
+      rel="cc:attributionURL"
+      href="https://collectivegovernance.directory/"
+      >Collective Governance Directory</a
+    >
+    is marked with
+    <a
+      href="http://creativecommons.org/publicdomain/zero/1.0?ref=chooser-v1"
+      target="_blank"
+      rel="license noopener noreferrer"
+      style="display:inline-block;"
+      >CC0 1.0 Universal <IconCreativeCommons
+        size={22}
+        style="vertical-align:text-bottom"
+      /><IconCreativeCommonsZero size={22} style="vertical-align:bottom" /></a
+    >
+  </p>
+</main>
 
 <style>
   nav ul {
@@ -58,6 +79,16 @@
   nav ul li a {
     display: flex;
     align-items: center;
+  }
+
+  :global(a) {
+    text-decoration: none;
+    color: black;
+    background: lavender;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
   }
 
   :global(body) {

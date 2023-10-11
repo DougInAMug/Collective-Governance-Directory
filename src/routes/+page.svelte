@@ -77,8 +77,8 @@
     border-spacing: 0;
   }
   tbody td {
-    border: 1px solid #f5f5f5;
-    padding: 4px 20px;
+    border: 1px solid lightgray;
+    padding: 0.75rem 1rem;
   }
   tbody tr {
     transition: all, 0.2s;
