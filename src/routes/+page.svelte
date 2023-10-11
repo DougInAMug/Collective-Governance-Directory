@@ -40,8 +40,8 @@
     <tbody>
       {#each $rows as row}
         <tr>
-          <td>{row.organizationName}</td>
-          <td><a href={row.artefactLink}>{row.artefactTitle}</a></td>
+          <td><a href={row.organizationURL}>{row.organizationName}</a></td>
+          <td><a href={row.artefactURL}>{row.artefactTitle}</a></td>
           <td>
             {#if row.translationOf}
               {row.translationOf}
