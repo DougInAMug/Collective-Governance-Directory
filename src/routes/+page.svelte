@@ -9,7 +9,7 @@
   import IconJson from "@tabler/icons-svelte/dist/svelte/icons/IconJson.svelte";
   import IconDownload from "@tabler/icons-svelte/dist/svelte/icons/IconDownload.svelte";
   import { base } from "$app/paths";
-  import dataObject from "../../static/data.json"
+  import dataObject from "../../static/CollectiveGovernanceDirectoryData.json"
   const data = dataObject.dataEntries
 
   const handler = new DataHandler(data, { rowsPerPage: 50 });
@@ -67,7 +67,7 @@
   <RowCount {handler} />
 </footer>
 
-<a href="{base}/data.json" download style="display:flex;align-items:center;gap:0.5rem">
+<a href="{base}/CollectiveGovernanceDirectoryData.json" download style="display:flex;align-items:center;gap:0.5rem">
   Download data 
   <IconDownload size={25} /> 
   <IconJson size={30} />
