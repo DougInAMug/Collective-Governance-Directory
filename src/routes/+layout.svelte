@@ -59,7 +59,7 @@
       >CC0 1.0 Universal <IconCreativeCommons
         size={22}
         style="vertical-align:text-bottom"
-      /><IconCreativeCommonsZero size={22} style="vertical-align:bottom" /></a
+      /><IconCreativeCommonsZero size={22} style="vertical-align:text-bottom" /></a
     >
   </p>
 </main>
@@ -84,11 +84,19 @@
   :global(a) {
     text-decoration: none;
     color: black;
-    background: lavender;
+    background: #e6e6fa;
     padding: 0.25rem;
     border-radius: 0.25rem;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
+  }
+
+  :global(a:hover) {
+    background: #d0d0ff;
+  }
+  
+  :global(a:active) {
+    background: #babaff;
   }
 
   :global(body) {

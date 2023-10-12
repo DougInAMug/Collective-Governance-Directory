@@ -61,5 +61,6 @@ In the last couple years I've had at least four people contact me looking for go
   section {
     width: 60ch;
     max-width: 100%;
+    line-height: 1.65;
   }
 </style>

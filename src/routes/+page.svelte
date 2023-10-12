@@ -6,7 +6,11 @@
     RowCount,
     Th,
   } from "@vincjo/datatables";
-  import data from "../data";
+  import IconJson from "@tabler/icons-svelte/dist/svelte/icons/IconJson.svelte";
+  import IconDownload from "@tabler/icons-svelte/dist/svelte/icons/IconDownload.svelte";
+  import { base } from "$app/paths";
+  import dataObject from "../../static/data.json"
+  const data = dataObject.dataEntries
 
   const handler = new DataHandler(data, { rowsPerPage: 50 });
   const rows = handler.getRows();
@@ -63,6 +67,12 @@
   <RowCount {handler} />
 </footer>
 
+<a href="{base}/data.json" download style="display:flex;align-items:center;gap:0.5rem">
+  Download data 
+  <IconDownload size={25} /> 
+  <IconJson size={30} />
+</a>
+
 <style>
   div.tableContainer {
     width: 100vw;
@@ -78,7 +88,7 @@
   }
   tbody td {
     border: 1px solid lightgray;
-    padding: 0.75rem 1rem;
+    padding: 0.5rem;
   }
   tbody tr {
     transition: all, 0.2s;
