@@ -147,6 +147,118 @@
       "language": "EN",
       "numberOfCharacters": 3300,
       "lastChecked": "2023-10-11"
+    },
+    {
+      "organizationName": "Funkwhale",
+      "organizationURL": "https://funkwhale.audio",
+      "artefactTitle": "Statuts de l'association",
+      "artefactURL": "https://funkwhale.audio/fr/collective",
+      "language": "FR",
+      "numberOfCharacters": 18100,
+      "lastChecked": "2023-10-16"
+    },
+    {
+      "organizationName": "Funkwhale",
+      "organizationURL": "https://funkwhale.audio",
+      "artefactTitle": "Collective statutes",
+      "artefactURL": "https://funkwhale.audio/en_US/collective",
+      "translationOf": "Statuts de l'association",
+      "translationOfLink": "https://funkwhale.audio/fr/collective",
+      "language": "EN",
+      "numberOfCharacters": 17000,
+      "lastChecked": "2023-10-16"
+    },
+    {
+      "organizationName": "Funkwhale",
+      "organizationURL": "https://funkwhale.audio",
+      "artefactTitle": "Code of Conduct",
+      "artefactURL": "https://funkwhale.audio/en_US/code-of-conduct",
+      "language": "EN",
+      "numberOfCharacters": 6900,
+      "lastChecked": "2023-10-16"
+    },
+    {
+      "organizationName": "Funkwhale",
+      "organizationURL": "https://funkwhale.audio",
+      "artefactTitle": "Code de conduite",
+      "artefactURL": "https://funkwhale.audio/fr/code-of-conduct",
+      "translationOf": "Code of Conduct",
+      "translationOfLink": "https://funkwhale.audio/en_US/code-of-conduct",
+      "language": "FR",
+      "numberOfCharacters": 8300,
+      "lastChecked": "2023-10-16"
+    },
+    {
+      "organizationName": "Hackerspace Gent",
+      "organizationURL": "https://hackerspace.gent",
+      "artefactTitle": "The Hackerspace Blueprint",
+      "artefactURL": "https://hackerspace.design/",
+      "language": "EN",
+      "numberOfCharacters": 46500,
+      "lastChecked": "2023-10-16"
+    },
+    {
+      "organizationName": "Omni Commons",
+      "organizationURL": "https://omnicommons.org",
+      "artefactTitle": "Founding Document",
+      "artefactURL": "https://omnicommons.org/wiki/Founding_Document",
+      "language": "EN",
+      "numberOfCharacters": 6500,
+      "lastChecked": "2023-10-16"
+    },
+    {
+      "organizationName": "Omni Commons",
+      "organizationURL": "https://omnicommons.org",
+      "artefactTitle": "Rules",
+      "artefactURL": "https://omnicommons.org/wiki/Rules",
+      "language": "EN",
+      "numberOfCharacters": 1000,
+      "lastChecked": "2023-10-16"
+    },
+    {
+      "organizationName": "Omni Commons",
+      "organizationURL": "https://omnicommons.org",
+      "artefactTitle": "Safer Space Policy",
+      "artefactURL": "https://omnicommons.org/wiki/Safer_Space_Policy",
+      "language": "EN",
+      "numberOfCharacters": 7500,
+      "lastChecked": "2023-10-16"
+    },
+    {
+      "organizationName": "Omni Commons",
+      "organizationURL": "https://omnicommons.org",
+      "artefactTitle": "Statement of Purpose",
+      "artefactURL": "https://omnicommons.org/wiki/Statement_of_Purpose",
+      "language": "EN",
+      "numberOfCharacters": 400,
+      "lastChecked": "2023-10-16"
+    },
+    {
+      "organizationName": "Omni Commons",
+      "organizationURL": "https://omnicommons.org",
+      "artefactTitle": "Cops at the Door",
+      "artefactURL": "https://omnicommons.org/wiki/Cops_at_the_Door",
+      "language": "EN",
+      "numberOfCharacters": 2000,
+      "lastChecked": "2023-10-16"
+    },
+    {
+      "organizationName": "Omni Commons",
+      "organizationURL": "https://omnicommons.org",
+      "artefactTitle": "Conflict Resolution Policy",
+      "artefactURL": "https://omnicommons.org/wiki/Conflict_Resolution_Policy",
+      "language": "EN",
+      "numberOfCharacters": 5200,
+      "lastChecked": "2023-10-16"
+    },
+    {
+      "organizationName": "Omni Commons",
+      "organizationURL": "https://omnicommons.org",
+      "artefactTitle": "Bylaws",
+      "artefactURL": "https://omnicommons.org/wiki/Bylaws",
+      "language": "EN",
+      "numberOfCharacters": 33200,
+      "lastChecked": "2023-10-16"
     }
   ]
 }
