@@ -2,6 +2,21 @@
   import SvelteMarkdown from "svelte-markdown";
   const source = `
 
+---
+
+**Table of contents** 
+- [Problem](#problem)
+- [Aims](#aims)
+- [Activities](#activities)
+- [Approach](#approach)
+- [Inclusion criteria à la RFC 2119](#inclusion-criteria-à-la-rfc-2119httpsdatatrackerietforgdochtmlrfc2119)
+- [Governance](#governance)
+- [Contributing](#contributing)
+- [Personal motivation](#personal-motivation)
+- [Links](#links)
+
+---
+
 ### Problem
 
 The public body of governance artefacts in use by collectives is small and scattered. "Artefact" here is taken to mean any enduring design which encodes institutional structure, such as rule-books, constitutions or policies. Such artefacts, unlike purely theoretical resources, are empirically validated through collective use. The scarcity thereof negatively affects: 
@@ -28,7 +43,7 @@ The public body of governance artefacts in use by collectives is small and scatt
 - anti-authoritarian: organizations and their artefacts seek to reduce domination and exploitation as far as possible
 - agnostic: artefacts can be documents, poems, diagrams, pictures... (must be somehow digitally linkable)
 
-### Inclusion criteria à la [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119)
+### Inclusion criteria à la [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119):
 
 - Artefacts MUST be public. There MUST NOT be a paywall or other financial barrier to access. There MUST NOT be a requirement of membership or the provision of personal information for access.
 - Artefacts MUST be self-published. The collective in question MUST be the direct author, whether published on a platform or a self-owned site.
@@ -38,6 +53,10 @@ The public body of governance artefacts in use by collectives is small and scatt
 ### Governance
 
 This is currently a solo project by me, [Doug](https://dougwebb.site/), and as such doesn't have any governance... well, I guess you could say it's a private dictatorship. Anyway, I would like the project to become a collective endeavour, so if you or someone you know is interested to get involved, let's talk to see how to make that work! 
+
+### Contributing
+
+To add an artefact to the directory, send me relevant links and info via [email](mailto:doug@dougwebb.site) or [mastodon](https://mastodon.xyz/@douginamug). If you're willing and able, pull requests to the [\`CollectiveGovernanceDirectoryData.json\`](https://github.com/DougInAMug/Collective-Governance-Directory/blob/main/static/CollectiveGovernanceDirectoryData.json) are very welcome! (Also for any other part of the site)
 
 ### Personal motivation
 
