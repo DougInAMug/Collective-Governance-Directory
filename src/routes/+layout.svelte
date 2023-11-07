@@ -112,7 +112,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    line-height: 1.25;
+    line-height: 1.4;
     margin: 0 auto;
   }
 
