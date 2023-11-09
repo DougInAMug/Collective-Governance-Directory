@@ -1,5 +1,7 @@
 # Collective Governance Directory
 
+_A collection of links to publicly available governance documents, published by the collectives that use them._
+
 Main project info on the [about page](https://collectivegovernance.directory/about). 
 
 ## tech overview

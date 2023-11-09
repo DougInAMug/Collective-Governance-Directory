@@ -9,7 +9,6 @@ on:
     paths:
       - "src/**"
       - "static/**"
-      # - "build/**"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -45,23 +44,3 @@ jobs:
           path: build/
       - name: Deploy GitHub Pages site
         uses: actions/deploy-pages@v2
-
-  # # Single deploy job since we're just deploying
-  # deploy:
-  #   environment:
-  #     name: github-pages
-  #     url: ${{ steps.deployment.outputs.page_url }}
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: Checkout
-  #       uses: actions/checkout@v3
-  #     - name: Setup Pages
-  #       uses: actions/configure-pages@v3
-  #     - name: Upload artifact
-  #       uses: actions/upload-pages-artifact@v2
-  #       with:
-  #         # Upload build repository
-  #         path: 'build'
-  #     - name: Deploy to GitHub Pages
-  #       id: deployment
-  #       uses: actions/deploy-pages@v2
