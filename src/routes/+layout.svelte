@@ -13,13 +13,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta
     name="description"
-    content="Find rules, constitutions, policies and other governance artefacts of living collectives."
+    content="A collection of links to publicly available governance documents, published by the collectives that use them."
   />
   <title>Collective Governance Directory</title>
 </svelte:head>
 
 <main>
   <h1><a href="{base}/">Collective Governance Directory</a></h1>
+
+  <em style="margin-bottom: 1rem; max-width: 45ch; text-align:center; font-size: 1.25rem">A collection of links to publicly available governance documents, published by the collectives that use them.</em>
 
   <nav>
     <ul>

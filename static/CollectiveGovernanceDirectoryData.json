@@ -259,6 +259,24 @@
       "language": "EN",
       "numberOfCharacters": 33200,
       "lastChecked": "2023-10-16"
+    },
+    {
+      "organizationName": "MIT Assassins' Guild",
+      "organizationURL": "https://assassin.mit.edu",
+      "artefactTitle": "MIT Assassins’ Guild Constitution",
+      "artefactURL": "https://web.mit.edu/~assassin/Constitution/constitution.pdf",
+      "language": "EN",
+      "numberOfCharacters": 16000,
+      "lastChecked": "2023-11-09"
+    },
+    {
+      "organizationName": "Chaos Computer Club Cologne e.V.",
+      "organizationURL": "https://koeln.ccc.de",
+      "artefactTitle": "Hardware-Gesetz",
+      "artefactURL": "https://wiki.koeln.ccc.de/index.php?title=Hacker_Space/Hardware-Gesetz",
+      "language": "DE",
+      "numberOfCharacters": 2000,
+      "lastChecked": "2023-11-09"
     }
   ]
 }
