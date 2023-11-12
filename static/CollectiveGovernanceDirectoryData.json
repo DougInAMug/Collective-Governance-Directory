@@ -277,6 +277,24 @@
       "language": "DE",
       "numberOfCharacters": 2000,
       "lastChecked": "2023-11-09"
+    },
+    {
+      "organizationName": "Alternatives Zentrum Conni",
+      "organizationURL": "https://www.azconni.de",
+      "artefactTitle": "Leitlinien für die migrationsgesellschaftliche Öffnung des AZ Conni",
+      "artefactURL": "https://www.azconni.de/leitlinien/",
+      "language": "DE",
+      "numberOfCharacters": 6400,
+      "lastChecked": "2023-11-12"
+    },
+    {
+      "organizationName": "AJZ Chemnitz",
+      "organizationURL": "https://www.ajz-chemnitz.de",
+      "artefactTitle": "Alternatives Jugendzentrum e.V. Satzung",
+      "artefactURL": "https://www.ajz-chemnitz.de/impressum.html?file=files/downloads/Satzung-2019.pdf&cid=107",
+      "language": "DE",
+      "numberOfCharacters": 14900,
+      "lastChecked": "2023-11-12"
     }
   ]
 }
