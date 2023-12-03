@@ -295,6 +295,33 @@
       "language": "DE",
       "numberOfCharacters": 14900,
       "lastChecked": "2023-11-12"
+    },
+    {
+      "organizationName": "ForgeFriends",
+      "organizationURL": "https://forgefriends.org",
+      "artefactTitle": "Community manifesto",
+      "artefactURL": "https://forum.forgefriends.org/t/511",
+      "language": "EN",
+      "numberOfCharacters": 1310,
+      "lastChecked": "2023-12-03"
+    },
+    {
+      "organizationName": "ForgeFriends",
+      "organizationURL": "https://forgefriends.org",
+      "artefactTitle": "Code of Conduct",
+      "artefactURL": "https://forgefriends.org/blog/2021/01/10/code-of-conduct/",
+      "language": "EN",
+      "numberOfCharacters": 4141,
+      "lastChecked": "2023-12-03"
+    },
+    {
+      "organizationName": "ForgeFriends",
+      "organizationURL": "https://forgefriends.org",
+      "artefactTitle": "A guide to forgefriends governance",
+      "artefactURL": "https://forum.forgefriends.org/t/511",
+      "language": "EN",
+      "numberOfCharacters": 6608,
+      "lastChecked": "2023-12-03"
     }
   ]
 }
