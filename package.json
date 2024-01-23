@@ -24,6 +24,9 @@
 	"type": "module",
 	"dependencies": {
 		"@tabler/icons-svelte": "2.30.0",
+		"axios": "^1.6.2",
+		"cheerio": "1.0.0-rc.12",
+		"papaparse": "^5.4.1",
 		"svelte-markdown": "^0.4.0"
 	}
 }
