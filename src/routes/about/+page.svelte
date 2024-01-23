@@ -46,10 +46,11 @@ The public body of governance artefacts in use by collectives is small and scatt
 ### Inclusion criteria à la [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119):
 
 - Artefacts MUST be public. There MUST NOT be a paywall or other financial barrier to access. There MUST NOT be a requirement of membership or the provision of personal information for access.
-- Artefacts MUST be self-published. The collective in question MUST be the direct author, whether published on a platform or a self-owned site.
+- Artefacts SHOULD be self-published on an independent website. If published on a secondary site, the artefact MUST be associated beyond doubt (e.g. an outgoing link from the primary website).
 - Artefacts SHOULD be openly licensed in a way that facilitates their use. Recommendation of [CC0](https://creativecommons.org/publicdomain/zero/1.0/), [CC BY](https://creativecommons.org/licenses/by/4.0/), [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) or similar [free culture license](https://freedomdefined.org/Definition).
-- Artefacts MUST be used by an existing collective at the time of inclusion. Thereafter, the CGD is responsible to monitor and act to ensure this condition is maintained.
-- Artefacts MUST come from organizations with 3 or more members. If this information is not clearly available, a best guess will be made
+- Artefacts MUST be in use by the authoring collective at the time of inclusion. Thereafter, the CGD is responsible to monitor and act to ensure this condition is maintained.
+- Artefacts MUST come from organizations with 3 or more members. If this information is not clearly available, a best guess will be made.
+- Artefacts SHOULD be those used internally by the collective (i.e. not be a summary version or FAQ for site visitors.) Exceptions may be made if 1) sufficient detail is given for reproduction, or 2) the concepts are significantly novel.
 
 ### Governance
 
@@ -67,7 +68,8 @@ In the last couple years I've had at least four people contact me looking for go
 
 ### Links
 
-- https://radhr.org/ - a library of uploaded progressive policies and processes from organizations + forum
+- https://radhr.org - a library of uploaded progressive policies and processes from organizations + forum
+- https://thefec.org - the Federation of Egalitarian Communities has a significant collection of documents and policies
 - https://communityrule.info - a plug-it-together governance toolkit + library of user generated rule sets
 
 `;
