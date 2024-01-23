@@ -49,6 +49,7 @@ The public body of governance artefacts in use by collectives is small and scatt
 - Artefacts MUST be self-published. The collective in question MUST be the direct author, whether published on a platform or a self-owned site.
 - Artefacts SHOULD be openly licensed in a way that facilitates their use. Recommendation of [CC0](https://creativecommons.org/publicdomain/zero/1.0/), [CC BY](https://creativecommons.org/licenses/by/4.0/), [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) or similar [free culture license](https://freedomdefined.org/Definition).
 - Artefacts MUST be used by an existing collective at the time of inclusion. Thereafter, the CGD is responsible to monitor and act to ensure this condition is maintained.
+- Artefacts MUST come from organizations with 3 or more members. If this information is not clearly available, a best guess will be made
 
 ### Governance
 
