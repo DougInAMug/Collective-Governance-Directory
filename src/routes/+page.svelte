@@ -10,7 +10,7 @@
   import IconDownload from "@tabler/icons-svelte/dist/svelte/icons/IconDownload.svelte";
   import { base } from "$app/paths";
   import dataObject from "../../static/CollectiveGovernanceDirectoryData.json"
-  const data = dataObject.dataEntries
+  const data = dataObject.data
 
   const handler = new DataHandler(data, { rowsPerPage: 50 });
   const rows = handler.getRows();
