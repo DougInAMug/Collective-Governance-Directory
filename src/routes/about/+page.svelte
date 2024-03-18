@@ -68,9 +68,11 @@ In the last couple years I've had at least four people contact me looking for go
 
 ### Links
 
-- https://radhr.org - a library of uploaded progressive policies and processes from organizations + forum
-- https://thefec.org - the Federation of Egalitarian Communities has a significant collection of documents and policies
-- https://communityrule.info - a plug-it-together governance toolkit + library of user generated rule sets
+- **https://radhr.org** - _"RadHR is a space for social change organisations to share the nuts and bolts ... of how to organise ourselves"_ They host a [policy library](https://radhr.org/policies/) of 53 uploaded documents; most link to their authors, none to source.
+- **[GitHub OSS Governance File Dataset](https://doi.org/10.5281/zenodo.7530768)** - _"a longitudinal dataset of 710 GitHub-hosted OSS projects with GOVERNANCE.MD governance files."_ Resulting from [Yan et al., 2023](https://arxiv.org/abs/2304.00460#). ~600 mb in CSV, SQL or MongoDB dump—no web UI.
+- **https://www.thefec.org** - the Federation of Egalitarian Communities _"a union ... joined together in our common struggle to create a lifestyle based on Equality, Cooperation, and Harmony with the Earth."_ They host a [collection](https://www.thefec.org/systems-and-structures) of over 100 uploaded governance documents; all link to their authors, none to source.
+- **https://fossgovernance.org** - _"An indexed collection of governance documents from Free and Open Source Software (FOSS) projects."_ A [Zotero collection](https://www.zotero.org/groups/2310183/foss_governance/items) of 359 free software governance documents; most link to source.
+- **https://communityrule.info** - _"CommunityRule is a governance toolkit for great communities."_ This web-tool for drafting governance has a [library](https://communityrule.info/library/) of user generated documents: most seem to be testing, some link to authors, none to source..
 
 `;
 </script>
