@@ -17,7 +17,7 @@ npm run dev
 # build
 npm run build
 
-# after editing csv, regenerate json
+# generate json from csv (performed as part of build)
 node static/csvtoJSON.js
 ```
 

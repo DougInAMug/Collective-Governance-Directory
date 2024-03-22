@@ -6,11 +6,12 @@
     RowCount,
     Th,
   } from "@vincjo/datatables";
+  import IconCsv from "@tabler/icons-svelte/dist/svelte/icons/IconCsv.svelte";
   import IconJson from "@tabler/icons-svelte/dist/svelte/icons/IconJson.svelte";
   import IconDownload from "@tabler/icons-svelte/dist/svelte/icons/IconDownload.svelte";
   import { base } from "$app/paths";
-  import dataObject from "../../static/CollectiveGovernanceDirectoryData.json"
-  const data = dataObject.data
+  import dataObject from "../../static/CollectiveGovernanceDirectoryData.json";
+  const data = dataObject.data;
 
   const handler = new DataHandler(data, { rowsPerPage: 50 });
   const rows = handler.getRows();
@@ -67,13 +68,34 @@
   <RowCount {handler} />
 </footer>
 
-<a href="{base}/CollectiveGovernanceDirectoryData.json" download style="display:flex;align-items:center;gap:0.5rem">
-  Download data 
-  <IconDownload size={25} /> 
-  <IconJson size={30} />
-</a>
+<div class="downloads">
+  <a
+    href="{base}/CollectiveGovernanceDirectoryData.csv"
+    download
+    style="display:flex;align-items:center;gap:0.5rem"
+  >
+    Download data
+    <IconDownload size={25} />
+    <IconCsv size={30} />
+  </a>
+  <a
+    href="{base}/CollectiveGovernanceDirectoryData.json"
+    download
+    style="display:flex;align-items:center;gap:0.5rem"
+  >
+    Download data
+    <IconDownload size={25} />
+    <IconJson size={30} />
+  </a>
+</div>
 
 <style>
+  div.downloads {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
   div.tableContainer {
     width: 100vw;
     overflow-x: auto;
