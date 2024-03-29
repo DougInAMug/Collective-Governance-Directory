@@ -67,12 +67,14 @@ When I was drafting governance for [Kanthaus](https://kanthaus.online/) in 2017,
 In the last couple years I've had at least four people contact me looking for governance from other living projects ([Ecodorp Zuiderveld](https://www.ecodorpzuiderveld.nl/), [Schwarz10](http://schwarz10.de/), [Pödelwitz hat Zukunft](https://www.poedelwitz.de/de/), [Mietshäuser Projekt](https://en.wikipedia.org/wiki/Mietsh%C3%A4user_Syndikat) working group) either for inspiration for an specific area with which they were struggling, or for the drafting of whole new artefacts.
 
 ### Links
-
-- **https://radhr.org** - _"RadHR is a space for social change organisations to share the nuts and bolts ... of how to organise ourselves"_ They host a [policy library](https://radhr.org/policies/) of 53 uploaded documents; most link to their authors, none to source.
-- **[GitHub OSS Governance File Dataset](https://doi.org/10.5281/zenodo.7530768)** - _"a longitudinal dataset of 710 GitHub-hosted OSS projects with GOVERNANCE.MD governance files."_ Resulting from [Yan et al., 2023](https://arxiv.org/abs/2304.00460#). ~600 mb in CSV, SQL or MongoDB dump—no web UI.
+Other directories or repositories of contemporary governance documents:
 - **https://www.thefec.org** - the Federation of Egalitarian Communities _"a union ... joined together in our common struggle to create a lifestyle based on Equality, Cooperation, and Harmony with the Earth."_ They host a [collection](https://www.thefec.org/systems-and-structures) of over 100 uploaded governance documents; all link to their authors, none to source.
+- **https://radhr.org** - _"RadHR is a space for social change organisations to share the nuts and bolts ... of how to organise ourselves"_ They host a [policy library](https://radhr.org/policies/) of 53 uploaded documents; most link to their authors, none to source.
 - **https://fossgovernance.org** - _"An indexed collection of governance documents from Free and Open Source Software (FOSS) projects."_ A [Zotero collection](https://www.zotero.org/groups/2310183/foss_governance/items) of 359 free software governance documents; most link to source.
+- **https://govbase.metagov.org/** - _"Govbase is a warehouse of qualitative and quantitative data sets relating to the governance of online communities."_ An [Airtable](https://airtable.com/appx3e9Przn9iprkU/shrgnUrj0dqzZDsOd/tblh8o2b7sNPq2yGz/viwUEtsRJkkp5L1P8) of 93 documents; most link to source.
+- **[GitHub OSS Governance File Dataset](https://doi.org/10.5281/zenodo.7530768)** - _"a longitudinal dataset of 710 GitHub-hosted OSS projects with GOVERNANCE.MD governance files."_ Resulting from [Yan et al., 2023](https://arxiv.org/abs/2304.00460#). ~600 mb in CSV, SQL or MongoDB dump—no web UI.
 - **https://communityrule.info** - _"CommunityRule is a governance toolkit for great communities."_ This web-tool for drafting governance has a [library](https://communityrule.info/library/) of user generated documents: most seem to be testing, some link to authors, none to source..
+
 
 `;
 </script>
