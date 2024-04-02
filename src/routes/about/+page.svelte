@@ -74,7 +74,7 @@ Other directories or repositories of contemporary governance documents:
 - **https://govbase.metagov.org/** - _"Govbase is a warehouse of qualitative and quantitative data sets relating to the governance of online communities."_ An [Airtable](https://airtable.com/appx3e9Przn9iprkU/shrgnUrj0dqzZDsOd/tblh8o2b7sNPq2yGz/viwUEtsRJkkp5L1P8) of 93 documents; most link to source.
 - **[GitHub OSS Governance File Dataset](https://doi.org/10.5281/zenodo.7530768)** - _"a longitudinal dataset of 710 GitHub-hosted OSS projects with GOVERNANCE.MD governance files."_ Resulting from [Yan et al., 2023](https://arxiv.org/abs/2304.00460#). ~600 mb in CSV, SQL or MongoDB dump—no web UI.
 - **https://communityrule.info** - _"CommunityRule is a governance toolkit for great communities."_ This web-tool for drafting governance has a [library](https://communityrule.info/library/) of user generated documents: most seem to be testing, some link to authors, none to source..
-
+- **https://supernuclear.substack.com** - _"a guide for people starting coliving communities for their chosen tribe."_ The blog features 19 [community case-studies](https://supernuclear.substack.com/i/669099/case-studies-of-communities), primarily self-written, some of which document governance.  
 
 `;
 </script>
