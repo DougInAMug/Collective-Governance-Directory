@@ -6,9 +6,9 @@
     RowCount,
     Th,
   } from "@vincjo/datatables";
-  import IconCsv from "@tabler/icons-svelte/dist/svelte/icons/IconCsv.svelte";
-  import IconJson from "@tabler/icons-svelte/dist/svelte/icons/IconJson.svelte";
-  import IconDownload from "@tabler/icons-svelte/dist/svelte/icons/IconDownload.svelte";
+  import Csv from "@tabler/icons-svelte/IconCsv.svelte";
+  import Json from "@tabler/icons-svelte/IconJson.svelte";
+  import Download from "@tabler/icons-svelte/IconDownload.svelte";
   import { base } from "$app/paths";
   import dataObject from "../../static/CollectiveGovernanceDirectoryData.json";
   const data = dataObject.data;
@@ -75,8 +75,8 @@
     style="display:flex;align-items:center;gap:0.5rem"
   >
     Download data
-    <IconDownload size={25} />
-    <IconCsv size={30} />
+    <Download size={25} />
+    <Csv size={30} />
   </a>
   <a
     href="{base}/CollectiveGovernanceDirectoryData.json"
@@ -84,8 +84,8 @@
     style="display:flex;align-items:center;gap:0.5rem"
   >
     Download data
-    <IconDownload size={25} />
-    <IconJson size={30} />
+    <Download size={25} />
+    <Json size={30} />
   </a>
 </div>
 
